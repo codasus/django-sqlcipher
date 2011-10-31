@@ -12,7 +12,9 @@ For more about SQLCipher take a look at [http://sqlcipher.net/](http://sqlcipher
 
 * python-sqlcipher (Python compiled with SQLCipher support)
 
-For more details take a look at: [github.com/sjlombardo/sqlcipher](https://github.com/sjlombardo/sqlcipher)
+For more about python-sqlcipher take a look at:
+
+[https://code.launchpad.net/~jplacerda/+junk/python-sqlcipher](https://code.launchpad.net/~jplacerda/+junk/python-sqlcipher)
 
 **Installation**
 
@@ -28,7 +30,7 @@ Open your project's `settings.py` file and:
 
 2. Put the following line where you want:
 
-    PRAGMA_KEY = "YOUR DATABASE KEY"
+    `PRAGMA_KEY = "YOUR DATABASE KEY"`
 
 **License**
 
