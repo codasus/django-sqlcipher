@@ -5,9 +5,7 @@ import os
 root = os.path.dirname(os.path.abspath(__file__))
 os.chdir(root)
 
-master_file = open(os.path.join(root, ".git", "refs", "heads", "master"))
-VERSION = '0.1.git-' + master_file.read().strip()
-master_file.close()
+VERSION = '0.1'
 
 # Make data go to the right place.
 # http://groups.google.com/group/comp.lang.python/browse_thread/thread/35ec7b2fed36eaec/2105ee4d9e8042cb
@@ -28,12 +26,12 @@ setup(
     packages=['sqlcipher'],
     classifiers=[
         "Development Status :: 3 - Alpha",
-        "Environment :: Web Environment",
-        "Intended Audience :: Developers",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-        "Programming Language :: Python",
         "Framework :: Django",
+        "Intended Audience :: Developers",
+        "Natural Language :: English",
+        "Operating System :: OS Independent",
+        "Topic :: Database",
+        "Topic :: Security :: Cryptography",
     ],
     include_package_data=True,
 )
