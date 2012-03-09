@@ -28,7 +28,9 @@ Open your project's `settings.py` file and:
 
 1. Append `sqlcipher` to your `INSTALLED_APPS`.
 
-2. Put the following line where you want:
+2. Set your database engine to `sqlcipher.backend`.
+
+3. Put the following line where you want:
 
     `PRAGMA_KEY = "YOUR DATABASE KEY"`
 
